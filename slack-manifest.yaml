@@ -1,0 +1,22 @@
+display_information:
+  name: VaultWatch
+  description: On-premise air-gapped Bank Compliance Surveillance Agent
+  background_color: "#0f172a"
+features:
+  bot_user:
+    display_name: VaultWatch
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - im:write
+      - channels:history
+      - app_mentions:read
+      - commands
+settings:
+  interactivity:
+    is_enabled: true
+  socket_mode_enabled: true
+  org_deploy_enabled: false
+  token_rotation_enabled: false
